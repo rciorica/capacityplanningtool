@@ -29,6 +29,16 @@ Person — a team member
 
 Deliverables
 
-1. A working prototype — runs locally, no cloud deployment.
+1. A working prototype — runs locally, no cloud deployment
+
+# Full stack (requires Docker)
+docker-compose up
+
+# Backend only (requires local PostgreSQL)
+cd backend && ./mvnw spring-boot:run
+
+# Frontend only (requires running backend)
+cd frontend && npm install && npm run dev
+
 2. A short design document — includes the assumptions made where requirements were ambiguous - see Capacity Planning Tool — Design Document.pdf
 
