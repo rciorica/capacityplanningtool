@@ -1,0 +1,157 @@
+/* ===== GLOBAL ===== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: red !important;
+  font-family: Inter, system-ui, sans-serif;
+  color: #1f2937;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* ===== GENERIC CARD STYLE FOR ALL DIVS WITH INLINE BORDER ===== */
+
+div[style*="border"] {
+  background: white;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+div[style*="border"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+/* ===== GRID IMPROVEMENT ===== */
+
+div[style*="grid"] {
+  gap: 24px !important;
+  margin-top: 20px;
+}
+
+/* ===== BIG NUMBERS ===== */
+
+p[style*="font-size"] {
+  font-size: 36px !important;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* ===== LOADING / ERROR ===== */
+
+div:has(> h1) + div {
+  margin-top: 20px;
+}
+
+div:contains("Loading") {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+div:contains("Failed") {
+  font-size: 20px;
+  font-weight: 600;
+  color: #b91c1c;
+}
+
+/* ===== GLOBAL LAYOUT FIX ===== */
+
+div[style*="flex"] {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+}
+
+header[style] {
+  background: #1f2937 !important; /* dark gray */
+  color: white !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header nav a {
+  color: white !important;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main[style] {
+  flex: 1 !important;
+  padding: 2rem !important;
+  background: #f5f7fa !important;
+}
+
+/* ===== DASHBOARD CARDS ===== */
+
+div[style*="border"] {
+  background: white !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06) !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+div[style*="border"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10) !important;
+}
+
+/* ===== GRID ===== */
+
+div[style*="grid"] {
+  gap: 24px !important;
+  margin-top: 20px !important;
+}
+
+/* ===== TITLURI ===== */
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* ===== NUMERE ===== */
+
+p[style*="font-size"] {
+  font-size: 36px !important;
+  font-weight: 700;
+  color: #111827;
+}
+

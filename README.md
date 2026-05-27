@@ -1,5 +1,6 @@
-# capacityplanningtool
-Prototype of a web-based strategic capacity planning tool. The tool operates at initiative and epic level — it is not a sprint planning or task tracking tool. 
+# Capacity Planning Tool
+
+Prototype of a web-based strategic capacity planning tool. The tool operates at initiative and epic level — it is not a sprint planning or task tracking tool.
 
 Stakeholders
 The tool serves three groups. Derive their needs from their role and perspective.
@@ -27,5 +28,7 @@ capacity
 Person — a team member
 
 Deliverables
+
 1. A working prototype — runs locally, no cloud deployment.
-2. A short design document — includes the assumptions made where requirements were ambiguous
+2. A short design document — includes the assumptions made where requirements were ambiguous - see Capacity Planning Tool — Design Document.pdf
+
